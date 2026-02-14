@@ -1,0 +1,8 @@
+{
+  "name": "GeminiConnect - Real-time AI Messenger",
+  "description": "A WhatsApp-inspired messaging app featuring real-time chat, voice calls, and video interactions powered by Gemini Live API.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
