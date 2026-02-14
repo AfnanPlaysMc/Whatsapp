@@ -7,14 +7,16 @@ export interface Message {
   imageUrl?: string;
   audioUrl?: string;
   timestamp: number;
+  status: 'sent' | 'delivered' | 'read';
 }
 
 export interface Contact {
-  id: string; // Peer ID
+  id: string;
   username: string;
   name: string;
   avatar: string;
   status: 'online' | 'offline';
+  isTyping?: boolean;
 }
 
 export interface ChatSession {
